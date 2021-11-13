@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sass workshop</title>
 </head>
@@ -12,11 +15,35 @@
     </header>
     <main>
         
-        <section>
-            <p>Coucou !</p>
-            <button class="cta">Clique sur moi !</button>
-            <button class="cta">Non ! Clique sur moi !</button>
+        <section class="welcome-section">
+            <p>Bienvenue ! Ici vous pouvez acheter des trucs juste en cliquant sur des boutons.</p>
+            
         </section>
+        <section class="cta-section">
+            <h2 class="">Clique pour acheter des trucs</h2>
+            <button class="cta__button-1">Clique sur moi !</button>
+            <button class="cta__button-2">Non ! Clique sur moi !</button>
+        </section>
+        <section class="go-to-shop">
+            <article class="go-to-shop__item">
+                Article 1
+            </article>
+            <article class="go-to-shop__item">
+                Article 2
+            </article>
+            <article class="go-to-shop__item_on-sale">
+                Article 3 - En promo !
+            </article>
+            <article class="go-to-shop__item_on-sale">
+                Article 4 - En promo !
+            </article>
+        </section>
+        <footer>
+            <ul class="footer__links">
+                <li class="footer__links__contact">Contactez-nous</li>
+                <li class="footer__links__a-propos">A propos</li>
+            </ul>
+        </footer>
     </main>
 </body>
 </html>
